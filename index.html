@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Minimo">
+	<meta name="description" content="fashion">
+	<meta name="keywords" content="fashion">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 days">
+	<meta name="author" content="Hasan">
+
+
+	<title></title>
+	<!--fonts links-->
+	
+
+	<!-- css link -->
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+<div class="container">
+
+<!--Show Text-->
+<h2>1.Show the text by onclick</h2>
+<button onclick="showText()" class="btn btn-dark">Show Text</button>
+<p id="st"></p>
+<hr>
+<h2>2.Show the text by ondblclick</h2>
+<button ondblclick="showTextDd()" class="btn btn-dark">Show Text</button>
+<p id="std"></p>
+<hr>
+<h2>3.Show the text by onmouseenter</h2>
+<button onmouseenter="showTextOms()"  class="btn btn-dark">Show Text</button>
+<p id="stoms"></p>
+<hr>
+<h2>4.Show the text by onmouseleave</h2>
+<button onmouseleave="showTextoml()"  class="btn btn-dark">Show Text</button>
+<p id="stoml"></p>
+<hr>
+<h2>5.Show the text by onmouseover</h2>
+<button onmouseover="showTextomo()"  class="btn btn-dark">Show Text</button>
+<p id="stomo"></p>
+<hr>
+<h2>6.Click the button Show the Date</h2>
+<button type="button" onclick="showDate()"  class="btn btn-dark">Show Date</button>
+<p id="sd"></p>
+<hr>
+<h2>7.Click the button to change the text</h2>
+<button type="button" onclick="changeText()"  class="btn btn-dark">Change Text</button>
+<p id="ct">Lorem ipsum dolor sit amet.</p>
+<hr>
+<!-- bulb on/off -->
+<h2>8.Click the button to on / off  the bulb</h2>
+<button type="button" onclick="bulbOn()" class="btn btn-dark">bulb on</button>
+<button type="button" onclick="bulbOff()" class="btn btn-dark">bulb off</button>
+<img id="img" src="images/off.gif" alt="">
+<hr>	
+
+<!-- bulb on/off -->
+<h2>9.Click the button to change the car</h2>
+<button type="button" onclick="redCar()" class="btn btn-dark">Red Car</button>
+<button type="button" onclick="blueCar()" class="btn btn-dark">Blue Car</button>
+<img id="car" src="images/blue.png" alt="">
+<hr>
+<h2>10.Click the button to change the CSS color</h2>
+<button type="button" onclick="changeCss()"  class="btn btn-dark">Change CSS</button>
+<p id="cc">Lorem ipsum dolor sit amet.</p>
+<hr>
+<h2>11.Click the button to change the CSS fonts size</h2>
+<button type="button" onclick="changeCssFont()"  class="btn btn-dark">Change Font Size</button>
+<p id="cs">Lorem ipsum dolor sit amet.</p>
+<hr>
+<!-- bulb on/off -->
+<h2>12.Click the button Show Hide the Text</h2>
+<button type="button" onclick="cShow()" class="btn btn-dark">Show</button>
+<button type="button" onclick="cHide()" class="btn btn-dark">Hide</button>
+<p id="sh"></p>
+<hr>
+<h2>13. JavaScript uses arithmetic operators to compute values * (just like algebra).</h2>
+<button type="button" onclick="cValu()" class="btn btn-dark" >Valu</button>
+<p id="jv"></p>
+<hr>
+<h2>14. In JavaScript the = operator is used to assign values to variables.</h2>
+<button type="button" onclick="cVal()" class="btn btn-dark" >Valu</button>
+<p id="je"></p>
+<hr>
+ <h2>15. Change Background Color on Button Click</h2>
+ <button type="button" onclick="changeColor()" class="btn btn-dark">Change Background Color</button>
+<hr>
+
+
+<!--var-->
+<h2>16. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata()">5 + 2</button>
+<p id="sdata">result - </p>
+
+<!--var-->
+<h2>17. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata1()">5 - 2</button>
+<p id="sdata1">result - </p>
+
+<!--var-->
+<h2>18. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata2()">5 * 2</button>
+<p id="sdata2">result - </p>
+
+<!--var-->
+<h2>19. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata3()">6 / 2</button>
+<p id="sdata3">result - </p>
+
+<!--var-->
+<h2>20. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata4()">6 / 2</button>
+<p id="sdata4">result - </p>
+
+<!--var-->
+<h2>21. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata5()">6 += 2</button>
+<p id="sdata5">result - </p>
+
+
+
+
+
+<!--var-->
+<h2>22. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata6()">6 < 2</button>
+<p id="sdata6">result - </p>
+
+<!--var-->
+<h2>23. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata7()">6 < 2</button>
+<p id="sdata7">result - </p>
+
+<!--var-->
+<h2>24. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata8()">6 > 2</button>
+<p id="sdata8">result - </p>
+
+<!--var-->
+<h2>25. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata9()">6 < 2</button>
+<p id="sdata9">result - </p>
+
+<!--var-->
+<h2>26. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata10()">6 < 2</button>
+<p id="sdata10">result - </p>
+
+<!--var-->
+<h2>27. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata11()">6 > 2</button>
+<p id="sdata11">result - </p>
+
+<h2>28. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata12()">6 > 2</button>
+<p id="sdata12">result - </p>
+
+<h2>29. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata13()">text1 +" " + text2</button>
+<p id="sdata13">result - </p>
+
+<h2>30. click the button to show the data by var</h2>
+<button type="button" class="btn btn-dark" onclick="showdata14()">text1 +" " + text2</button>
+<p id="sdata14">result - </p>
+
+
+
+
+
+
+
+
+
+
+
+<!--array-->
+<h2>31. click the button to show the data from array</h2>
+<button type="button" class="btn btn-dark" onclick="showArray()">text1 +" " + text2</button>
+<p id="sdataarray">result - </p>
+
+<!--array-->
+<h2>32. click the button to show the data from array</h2>
+<button type="button" class="btn btn-dark" onclick="showArray1()">text1 +" " + text2</button>
+<p id="sdataarray1">result - </p>
+
+
+<hr>
+  <h2>33. Change Text Alignment</h2>
+  <button type="button" class="btn btn-dark" onclick="changeTextAlignment()">Change Text Alignment</button>
+  <p id="alignmentText">This text will change alignment.</p>
+<hr>
+  <h2>34. Highlight Text on Button Click</h2>
+  <button type="button" class="btn btn-dark" onclick="highlightText()">Highlight Text</button>
+  <p id="highlightedText">This text will be highlighted.</p>
+<hr>
+  <h2>35. Display Current Day of the Week</h2>
+  <button type="button" class="btn btn-dark" onclick="displayDay()">Show Current Day</button>
+  <p id="currentDay"></p>
+
+  <h2>36.Change Font Style on Button Click</h2>
+  <button type="button" class="btn btn-dark" onclick="changeFontStyle()">Change Font Style</button>
+  <p id="fontStyleText">This text will change font style.</p>
+
+  <h2>37.Change Text Color on Button Click</h2>
+  <button type="button" class="btn btn-dark" onclick="changeTextColor()">Change Text Color</button>
+  <p id="colorText">This text will change color.</p>
+<hr>
+  <h2>38.Display Current Time</h2>
+  <p id="currentTime"></p>
+  <hr>
+
+  <h2>39.Count Button Clicks</h2>
+  <button type="button" class="btn btn-dark" onclick="countClicks()">Click me</button>
+  <p id="clickCount">Clicks: 0</p>
+<hr>
+  <h2>40.Change Font Size on Button Click</h2>
+  <button type="button" class="btn btn-dark" onclick="changeFontSize()">Change Font Size</button>
+  <p id="fontText">This text will change size.</p>
+<hr>
+  <h2>41.Display Current Date</h2>
+  <button type="button" class="btn btn-dark" onclick="displayDate()">Show Current Date</button>
+  <p id="currentDate"></p>
+<hr>
+  <h2>42.Disable Button After Click</h2>
+  <button type="button" class="btn btn-dark" id="disableButton" onclick="disableButton()">Click to Disable</button>
+<hr>
+  <h2>43.Change Background Color on Mouse Over</h2>
+  <p id="mouseOverText" onmouseover="changeBackgroundColor()" onmouseout="resetBackgroundColor()">Hover over this text to change background color.</p>
+<hr>
+  <h2>44.Display Current Month</h2>
+  <button type="button" class="btn btn-dark" onclick="displayMonth()">Show Current Month</button>
+  <p id="currentMonth"></p>
+<hr>
+
+<!-- Example 51: Adding Two Numbers -->
+<h2>45.</h2>
+<button type="button" class="btn btn-dark"  onclick="addNumbers()">Add Numbers</button>
+<p id="addNumbersResult"></p>
+
+<!-- Example 52: Subtracting Two Numbers -->
+<h2>46.</h2>
+<button type="button" class="btn btn-dark" onclick="subtractNumbers()">Subtract Numbers</button>
+<p id="subtractNumbersResult"></p>
+
+
+<!-- Example 53: Multiplying Two Numbers -->
+<h2>47.</h2>
+<button type="button" class="btn btn-dark" onclick="multiplyNumbers()">Multiply Numbers</button>
+<p id="multiplyNumbersResult"></p>
+
+<!-- Example 54: Dividing Two Numbers -->
+<h2>48.</h2>
+<button type="button" class="btn btn-dark" onclick="divideNumbers()">Divide Numbers</button>
+<p id="divideNumbersResult"></p>
+
+<!-- Example 55: Finding Remainder -->
+<h2>49.</h2>
+<button type="button" class="btn btn-dark" onclick="findRemainder()">Find Remainder</button>
+<p id="findRemainderResult"></p>
+
+<!-- Example 56: Calculating Power -->
+<h2>50.</h2>
+<button type="button" class="btn btn-dark" onclick="calculatePower()">Calculate Power</button>
+<p id="calculatePowerResult"></p>
+
+
+	</div>
+	</div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>	
